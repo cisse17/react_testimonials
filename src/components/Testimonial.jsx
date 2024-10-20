@@ -1,6 +1,6 @@
-  import React, { useState } from 'react'
- import "../style.css"
-  const Testimonial = () => {
+import React, { useState } from 'react'
+import "../style.css"
+const Testimonial = () => {
       const [currentIndex, setCurrentIndex] = useState(0)
 
       const testimonials = [
